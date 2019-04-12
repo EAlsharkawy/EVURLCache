@@ -5,8 +5,7 @@ use_frameworks!
 #pod 'ReachabilitySwift', :git => 'https://github.com/ashleymills/Reachability.swift'
 
 target 'EVURLCache' do
-    platform :ios, '9.0'
-    #    pod 'ReachabilitySwift', :git => 'https://github.com/ashleymills/Reachability.swift'
+     pod 'ReachabilitySwift'
 end
 
 target 'OSXcompileTest' do
